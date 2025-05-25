@@ -13,7 +13,8 @@ const port = 5001;
 
 app.use(express.json());
 const allowedOrigins = [
-    'http://localhost:8080'
+    'http://localhost:8080',
+    'https://book-haven-frontend-beige.vercel.app/'
   ];
   
 app.use(cors({
