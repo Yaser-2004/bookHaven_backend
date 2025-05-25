@@ -14,7 +14,7 @@ const port = 5000;
 app.use(express.json());
 const allowedOrigins = [
     'http://localhost:8080',
-    'https://book-haven-frontend-beige.vercel.app/'
+    'https://book-haven-frontend-beige.vercel.app'
   ];
   
 app.use(cors({
